@@ -5,16 +5,18 @@
 
 import collections
 
+#file=open('98-0_small.txt')
 file=open('98-0.txt')
 
 # if you want to use stopwords, here's an example of how to do this
-# stopwords = set(line.strip() for line in open('stopwords'))
+stopwords = set(line.strip() for line in open('stopwords'))
 
 # create your data structure here.  F
 wordcount={}
 
 # Instantiate a dictionary, and for every word in the file, add to 
 # the dictionary if it doesn't exist. If it does, increase the count.
+
 
 # Hint: To eliminate duplicates, remember to split by punctuation, 
 # and use case demiliters. The functions lower() and split() will be useful!
